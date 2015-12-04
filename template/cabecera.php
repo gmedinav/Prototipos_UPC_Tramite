@@ -1,20 +1,55 @@
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../Static/docs/favicon.ico">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>SISDOC VRS 3.0</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Navbar Template for Bootstrap</title>
+    <link rel="stylesheet" type="text/css" href="../static/bootstrap-3.3.6/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../static_extra/font-awesome/css/font-awesome.min.css" />
 
-    <!-- Bootstrap core CSS -->
-    <link href="../static/bootstrap-3.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    
-     <style type="text/css">
-    
+    <script type="text/javascript" src="../static_extra/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="../static/bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
+<style type="text/css">
+body {
+    margin: 40px;
+}
+#accordion .glyphicon {
+    margin-right: 10px;
+}
+.panel-collapse > .list-group .list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.panel-collapse > .list-group .list-group-item {
+    border-width: 1px 0;
+}
+.panel-collapse > .list-group {
+    margin-bottom: 0;
+}
+.panel-collapse .list-group-item {
+    border-radius: 0;
+}
+.panel-collapse .list-group .list-group {
+    margin: 0;
+    margin-top: 10px;
+}
+.panel-collapse .list-group-item li.list-group-item {
+    margin: 0 -15px;
+    border-top: 1px solid #ddd;
+    border-bottom: 0;
+    padding-left: 30px;
+}
+.panel-collapse .list-group-item li.list-group-item:last-child {
+    padding-bottom: 0;
+}
+.panel-collapse div.list-group div.list-group {
+    margin: 0;
+}
+.panel-collapse div.list-group .list-group a.list-group-item {
+    border-top: 1px solid #ddd;
+    border-bottom: 0;
+    padding-left: 30px;
 .dropdown-submenu {
     position: relative;
 }
@@ -61,11 +96,10 @@
     -webkit-border-radius: 6px 0 6px 6px;
     -moz-border-radius: 6px 0 6px 6px;
     border-radius: 6px 0 6px 6px;
+
+
 }
-    </style>
-    
-       <!-- Custom styles for this template -->
-       <link href="../offcanvas.css" rel="stylesheet">
+</style>
 
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -75,17 +109,13 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../Static/bootstrap-3.2.0/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
     
+   
+
+</head>
+<body>
+
     
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-
-    <div class="container">
+     <div class="container">
 
       <!-- Static navbar -->
       <div class="navbar navbar-default" role="navigation">
@@ -126,22 +156,8 @@
         </div><!--/.container-fluid -->
       </div>
 
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-        </p>
-      </div>
-</div> <!-- /container -->
 
+</div> <!-- /container1 -->
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="../static/bootstrap-3.2.0/dist/js/bootstrap.min.js"></script>
- 
-  </body>
-</html>
+    
+  

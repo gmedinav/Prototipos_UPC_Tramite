@@ -25,7 +25,7 @@ $key = strlen($Random)."!".$Random."!".$Ha.':'.$Hb;
     <title><?php echo LOGIN; ?></title>
 
     <!-- Bootstrap core CSS -->
-    <link href="static/docs/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/bootstrap-3.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="signin.css" rel="stylesheet">
