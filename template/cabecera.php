@@ -127,7 +127,7 @@ body {
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Project name</a>
+            <a class="navbar-brand" href="#">SISDOC V.E.S</a>
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -148,9 +148,10 @@ body {
               </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="./">Default</a></li>
+              <!--<li class="active"><a href="./">Default</a></li>
               <li><a href="../navbar-static-top/">Static top</a></li>
-              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+              <li><a href="../navbar-fixed-top/">Fixed top</a></li>-->
+              <li  ><a style="color: red" href="../navbar-static-top/" class="glyphicon glyphicon-off text-danger" aria-hidden="true" > Cerrar Sesión  </a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->

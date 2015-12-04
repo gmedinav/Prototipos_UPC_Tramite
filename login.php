@@ -22,7 +22,7 @@ $key = strlen($Random)."!".$Random."!".$Ha.':'.$Hb;
     <meta name="author" content="">
     <link rel="icon" href="static/docs/favicon.ico">
 
-    <title><?php echo LOGIN; ?></title>
+    <title>SYSDOC - V.E.S</title>
 
     <!-- Bootstrap core CSS -->
     <link href="static/bootstrap-3.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
